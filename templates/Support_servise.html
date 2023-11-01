@@ -309,7 +309,7 @@
       <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
         <div class="row">
           <div class="col-md-7 col-lg-6 col-xl-5 mx-auto">
-            <h1 class="display-1 mb-3">IOT Facilities</h1>
+            <h1 class="display-1 mb-3">Support & Services Facilities</h1>
             <p class="lead px-lg-5 px-xxl-8">Welcome to our IOT Facilities.</p>
           </div>
           <!-- /column -->
@@ -319,199 +319,31 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-light">
-      <div class="container pb-14 pb-md-16">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="blog classic-view mt-n17">
-              <article class="post">
-                <div class="card">
-                  <figure class="card-img-top overlay overlay-1 hover-scale"><a class="link-dark" href="#"><img src="{% static 'assets/img/FACILITIES/clint-patterson-knxuAKpRoxs-unsplash.jpg' %}" alt="" /></a>
-                    <figcaption>
-                     
-                    </figcaption>
-                  </figure>
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category text-line">
-                        <a href="#" class="hover" rel="category">NGI Facilities</a>
-                      </div>
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="">Here's an overview of how Facilities IoT can be integrated into NGI TBIs:</a></h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>Facilities IoT (Internet of Things) in Next-Generation Innovation Technology Business Incubators (NGI TBI) is a cutting-edge concept that harnesses the power of IoT technology to enhance the functionality and efficiency of business incubators. NGI TBIs play a pivotal role in fostering innovation and supporting startups, and the integration of IoT into their operations can greatly amplify their impact.</p>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!--/.card-body -->
-                  
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-              </article>
-              <!-- /.post -->
-              <article class="post">
-                <div class="card">
-                  <div class="post-slider card-img-top">
-                    <div class="swiper-container dots-over" data-margin="5" data-nav="true" data-dots="true">
-                      <div class="swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide"><img src="{% static 'assets/img/FACILITIES/s-tsuchiya-sPLLVFJXlb8-unsplash.jpg' %}" alt="" /></div>
-                          <div class="swiper-slide"><img src="{% static 'assets/img/FACILITIES/robin-glauser-zP7X_B86xOg-unsplash.jpg' %}" alt="" /></div>
-                        </div>
-                        <!--/.swiper-wrapper -->
-                      </div>
-                      <!-- /.swiper -->
-                    </div>
-                    <!-- /.swiper-container -->
-                  </div>
-                  <!-- /.post-slider -->
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category text-line">
-                        <a href="#" class="hover" rel="category">NGI FACILITIES</a>
-                      </div>
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="">Smart Security and Access Control:</a></h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>NGI TBIs typically house valuable equipment and sensitive information. IoT-enabled security systems can provide enhanced access control, surveillance, and alarm systems. This not only ensures a secure environment for startups but also facilitates smooth entry and exit for authorized personnel.</p>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!--/.card-body -->
-                 
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-            
-              <!-- /.post -->
+    <div class="flex flex-wrap justify-center mt-10 ">
+      {% for i in Support_service %}
+      <!-- card  -->
+      <div class="border border-gray-300 rounded-lg m-3 p-2 max-w-sm shadows">
+          <div class="flex rounded-lg h-full dark:bg-gray-800 bg-white p-8 flex-col items-center ">
+            <div><img src="{{ i.image_iot.url }}" alt="Avatar" class="w-20 h-20 object-cover rounded-full"></div>
+            <div class="post-category text-line">
+              <a href="#" class="hover" rel="category">NGI FACILITIES</a>
             </div>
-            <!-- /.blog -->
-            <div class="blog grid grid-view">
-              <div class="row isotope gx-md-8 gy-8 mb-8">
-                <article class="item post col-md-6">
-                  <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{% static 'assets/img/FACILITIES/jorge-ramirez-2bJ2OH9e9J8-unsplash.jpg' %}" alt="" /></a>
-                      <figcaption>
-                        
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category text-line">
-                          <a href="#" class="hover" rel="category">NGI FACILITIES</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="">Space Utilization</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p> Tracking space utilization is crucial in a business incubator. IoT sensors can provide real-time data on how workspaces are being used. This information helps in making informed decisions about space allocation and optimization.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{% static 'assets/img/FACILITIES/bence-boros-anapPhJFRhM-unsplash.jpg' %}" alt="" /></a>
-                      <figcaption>
-                     
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category text-line">
-                          <a href="#" class="hover" rel="category">NGI FACILITIES</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="">Environmental Monitoring</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p>IoT sensors can track environmental conditions like temperature, humidity, and air quality. This data ensures a comfortable and productive working environment for startups. It also helps in identifying potential issues early, such as air quality problems that could impact health.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{% static 'assets/img/FACILITIES/amal-shajan-mH2FqxEzrP0-unsplash.jpg' %}" alt="" /></a>
-                      <figcaption>
-                      
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category text-line">
-                          <a href="#" class="hover" rel="category">NGI FACILITIES</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="">Data Security and Privacy</a></h2>
-                      </div>
-                      <!-- /.post-header -->
-                      <div class="post-content">
-                        <p>Given the sensitive nature of the data and intellectual property within NGI TBIs, it's crucial to ensure the security and privacy of IoT data. Robust cybersecurity measures should be in place to protect against potential threats.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                  
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
-                <article class="item post col-md-6">
-                  <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> 
-                      <img src="{% static 'assets/img/FACILITIES/jorge-ramirez-hGSQCg8PRPg-unsplash.jpg' %}" alt="" /></a>
-                      <figcaption>
-                   
-                      </figcaption>
-                    </figure>
-                    <div class="card-body">
-                      <div class="post-header">
-                        <div class="post-category text-line">
-                          <a href="#" class="hover" rel="category">NGI FACILITIES</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="">Communication and Collaboration</a></h2>
-                      </div>
-                      <div class="post-content">
-                        <p> IoT can facilitate seamless communication and collaboration among startups and mentors. Smart displays and integrated communication platforms can streamline information sharing and problem-solving.</p>
-                      </div>
-                      <!-- /.post-content -->
-                    </div>
-                    <!--/.card-body -->
-                    
-                    <!-- /.card-footer -->
-                  </div>
-                  <!-- /.card -->
-                </article>
-                <!-- /.post -->
+              <div class="flex items-center mb-3">
+                <h2 class="text-black dark:text-white text-lg font-medium"><b>{{i.contant_iot}}</b></h2>
               </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.blog -->
-        <div>
-        <div>
-    </section>
+              <div class="flex flex-col justify-between flex-grow">
+                  <p class="leading-relaxed text-black dark:text-gray-300">
+                    <ul>
+                      <li>{{i.key_point1}}</li>
+                      <li>{{i.key_point2}}</li>
+                      <li>{{i.key_point3}}</li>
+                    </ul>
+                  </p>
+              </div>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
     <!-- /section -->
     <section id="snippet-3" class="wrapper bg-light wrapper-border">
       <div class="container-fluid pt-0 pt-md-0 pb-0 pb-md-0 px-xxl-01" style="padding-left: 0px; padding-right: 0px;">
